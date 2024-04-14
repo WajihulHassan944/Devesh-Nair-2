@@ -1205,7 +1205,7 @@ window.addEventListener('scroll', shadowHeader);
                 duration: 800,
                 delay: 300
             });
-        }, 8000); // 30 seconds delay
+        }, 2000); // 30 seconds delay
     });
 </script>
 

@@ -50,7 +50,7 @@ a {
     text-decoration: none;
     text-decoration-color: white;
 	padding:8px 20px;
-	transition:0.6s ease;
+	transition:0.4s ease;
 }
 
 a:hover {
