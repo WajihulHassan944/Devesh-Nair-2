@@ -26,7 +26,10 @@
 <script>
     function onSubmit(token) {
         // Code to execute when reCAPTCHA is successfully completed
+		
+        document.querySelector('.g-recaptcha').style.display = 'none'
         document.querySelector('.contactss').style.display = 'block';
+		
     }
 </script>
 

@@ -26,7 +26,9 @@
 <script>
     function onSubmit(token) {
         // Code to execute when reCAPTCHA is successfully completed
+		
         document.querySelector('.contactss').style.display = 'block';
+		
     }
 </script>
 
@@ -997,7 +999,7 @@ i{
         
 		
 		<center> <div class="g-recaptcha" data-sitekey="6LeLErwpAAAAAD3s3QWddvNAWULeDdLGUu3_-5lK" data-callback="onSubmit" style="margin-top:50px;"></div></center>
-        <div class="contactss containerss" style="display:block;">
+        <div class="contactss containerss" style="display:none;">
             <form id="contactForm">
                 <div class="form">
                     <div class="form-txt" data-aos="zoom-in">
