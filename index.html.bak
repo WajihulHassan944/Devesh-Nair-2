@@ -23,7 +23,12 @@
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-CMgpN0mgFQwtbM8nnp7cqR0Lzng9bIdzn3RYzXf0Tqy6Bh1wll+P47XRSB0AtK7+K8zHmblXz0xMWd2wQamOzA==" crossorigin="anonymous"></script>
 
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
+<script>
+    function onSubmit(token) {
+        // Code to execute when reCAPTCHA is successfully completed
+        document.querySelector('.contactss').style.display = 'block';
+    }
+</script>
 
 
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -991,8 +996,8 @@ i{
         <h1 class="title">Contact Me</h1>
         
 		
-		 <div class="g-recaptcha" data-sitekey="6LfwNLspAAAAAIZGIrlxpB5borq69kqcOEy5tNVa"></div>
-        <div class="contactss containerss">
+		<center> <div class="g-recaptcha" data-sitekey="6LeLErwpAAAAAD3s3QWddvNAWULeDdLGUu3_-5lK" data-callback="onSubmit" style="margin-top:50px;"></div></center>
+        <div class="contactss containerss" style="display:block;">
             <form id="contactForm">
                 <div class="form">
                     <div class="form-txt" data-aos="zoom-in">
