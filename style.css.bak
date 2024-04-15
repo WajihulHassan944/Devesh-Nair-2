@@ -52,7 +52,13 @@ a {
 	padding:8px 20px;
 	transition:0.6s ease;
 }
-
+.dark-mode a {
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+	padding:8px 20px;
+	transition:0.6s ease;
+}
 a:hover {
 	background:black;
 	color:#fff;
@@ -189,6 +195,11 @@ section {
 	transition:1s ease-in-out;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
+.dark-mode 
+.section__pic-container img:hover{
+	padding:5px;
+	box-shadow: #fff 0px 1px 4px, #fff 0px 0px 0px 3px;
+	}
 .section__text {
     align-self: center;
     text-align: center;
@@ -271,13 +282,15 @@ section {
 	color:black;
 	border:rgb(53, 53, 53) 0.1rem solid;
 }
-
 .btn-color-2 {
     background: none;
 }
 
 .btn-color-2:hover {
     border: rgb(255, 255, 255) 0.1rem solid;
+}
+.dark-mode .btn-color-2{
+	color:#fff;
 }
 
 .btn-container {
@@ -483,15 +496,15 @@ footer p {
     color: white; /* Optionally, change text color */
 }
 .dark-mode-anchor {
-    color: white;
-    text-decoration-color: black;
+    color: black;
+    text-decoration-color: white;
 }
 .shadow-header {
 	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 .dark-mode .shadow-header {
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, cyan 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(0, 128, 128, 0.15) 0px 0px 0px 1px;
 }
 
 
@@ -657,15 +670,12 @@ footer p {
 
 .form .form-txt h1 {
     font-weight: 600;
-    color: var(--black);
     font-size: 40px;
     letter-spacing: 1.5px;
     margin-bottom: 10px;
-    color: var(--light-black);
-}
+ }
 
 .form .form-txt span {
-    color: var(--light-black);
     font-size: 14px;
 }
 
@@ -673,11 +683,9 @@ footer p {
     font-size: 22px;
     font-weight: 600;
     margin: 15px 0;
-    color: var(--light-black);
-}
+   }
 
 .form .form-txt p {
-    color: var(--light-black);
     font-size: 14px;
 }
 
@@ -693,6 +701,7 @@ footer p {
     border: 1px solid var(--grey);
     margin: 35px 15px;
     font-size: 14px;
+	background:#fff;
 }
 
 .form .form-details textarea {
@@ -703,6 +712,28 @@ footer p {
     border: 1px solid var(--grey);
     font-size: 14px;
     resize: none;
+	background:#fff;
+}
+.dark-mode .form .form-details input[type="text"],
+.dark-mode .form .form-details input[type="email"] {
+    padding: 15px 20px;
+    color: var(--black);
+    outline: none;
+    border: 1px solid var(--grey);
+    margin: 35px 15px;
+    font-size: 14px;
+	background:#e8e7e8;
+}
+
+.dark-mode .form .form-details textarea {
+    padding: 15px 20px;
+    margin: 0 15px;
+    color: var(--black);
+    outline: none;
+    border: 1px solid var(--grey);
+    font-size: 14px;
+    resize: none;
+	background:#e8e7e8;
 }
 
 .form .form-details button {
@@ -792,6 +823,15 @@ footer p {
 	width:320px;
 	
 }
+.dark-mode .blogs .box-container .box{
+    border-radius: .5rem;
+    background:#e8e7e8;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+    padding:30px;
+	padding-bottom:40px;
+	width:320px;
+	
+}
 
 .blogs .box-container .box img{
     width:100%;
@@ -871,3 +911,63 @@ a {
 }
 
 
+
+
+
+/* For WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 10px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: cyan; /* Set the background color to cyan */
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+    width: 10px; /* Adjust the width as needed */
+}
+
+::-moz-scrollbar-thumb {
+    background-color: cyan; /* Set the background color to cyan */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myptag{
+	color:black;
+}
+.dark-mode .myptag{
+	color:#fff;
+}
+.toChangeBackgroundAbout{
+	background:#fff;
+}
+.dark-mode .toChangeBackgroundAbout{
+	background:#e8e7e8;
+}
+.myhthree{
+	color:#333;
+}
+.dark-mode .myhthree{
+	color:black;
+}
+.dark-mode .section__textOne{
+	color:#eee;
+}
+.oneone{
+	color:black;
+}
+.dark-mode .oneone{
+	color:#fff;
+}
