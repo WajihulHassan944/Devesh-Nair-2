@@ -57,7 +57,10 @@ a:hover {
 	background:black;
 	color:#fff;
 }
-
+.dark-mode a:hover {
+    background: cyan;
+    color: black;
+}
 .logo {
     font-size: 2rem;
 	font-weight:700;
@@ -180,9 +183,10 @@ section {
     margin: auto 0;
 }
 .section__pic-container img{
-	transition:0.5s ease-in-out;
+	transition:1.5s ease-in-out;
 }
 .section__pic-container img:hover{
+	transition:1s ease-in-out;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 .section__text {
@@ -202,6 +206,13 @@ section {
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
+.dark-mode .section__text__p2{
+	color:cyan;
+}
+.dark-mode .section__textsss{
+    color: cyan;
+}
+
 
 .title {
     font-size: 3rem;
@@ -252,10 +263,13 @@ section {
 .btn-color-2:hover {
     background: rgb(53, 53, 53);
     color: white;
+	
 }
 
 .btn-color-1:hover {
-    background: rgb(0, 0, 0);
+    background: #fff;
+	color:black;
+	border:rgb(53, 53, 53) 0.1rem solid;
 }
 
 .btn-color-2 {
@@ -301,7 +315,6 @@ section {
     right: -5rem;
     bottom: 2.5rem;
 }
-
 .details-container {
     padding: 1.5rem;
     flex: 1;
@@ -340,6 +353,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+	
 }
 
 .article-container {
@@ -349,6 +363,18 @@ section {
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+}
+
+.article-container-experience {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: flex-start;
+	align-items:center;
+	width:100%;
+	padding-left:20px;
 }
 
 article {
@@ -366,6 +392,7 @@ article .icon {
 
 #projects {
     position: relative;
+	
 }
 
 .color-container {
@@ -525,7 +552,19 @@ footer p {
     top: 50%;
     left: 0;
 }
+.dark-mode .projects__subtitle::after {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background-color: cyan;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
 
+.dark-mode .projects__description{
+	color:#eee;
+}
 .projects__title {
     margin-bottom: .75rem;
 }
@@ -549,6 +588,7 @@ footer p {
 	text-align: center;
 	background: #fff;
 	position: absolute;
+	transition:0.6s ease;
 }
 .owl-prev {
 	left: -60px;
@@ -558,7 +598,10 @@ footer p {
 	right: -60px;
 	top: -30px;
 }
-
+.owl-prev:hover, .owl-next:hover{
+	background:black;
+	color:#fff;
+}
 
 @media only screen and (max-width: 991px) {
 	.owl-nav {
@@ -579,18 +622,6 @@ footer p {
 
 #contact{
 	min-height:100vh;
-}
-
-@media only screen and (max-width: 767px) {
-	.owl-nav {
-		display: none;
-	}
-	#projects{
-		margin-bottom:70px;
-	}
-	#contact{
-		margin-top:200px;
-	}
 }
 
 .containerss {
@@ -681,6 +712,12 @@ footer p {
     cursor: pointer;
 }
 
+.dark-mode .form .form-details button {
+    color: black;
+    background: cyan;
+	border:2px solid black;
+}
+
 @media (max-width: 500px) {
     .form {
         display: flex;
@@ -692,12 +729,15 @@ footer p {
     .form .form-details input[type="text"],
     .form .form-details input[type="email"],
     .form .form-details textarea {
-        width: 100%;
+        width: 85%;
         margin-left: 0;
     }
     .form .form-details input[type="text"] {
         margin-bottom: 0px;
     }
+	#contact{
+		margin-bottom:100px;
+	}
 }
 
 @media(min-width: 501px) and (max-width: 768px) {
@@ -772,3 +812,56 @@ footer p {
     cursor: pointer;
 
 }
+
+
+
+
+
+
+
+
+
+html {
+  cursor: none;
+  
+  position:relative;
+}
+
+
+
+/* Custom cursor styles */
+[data-cursor] {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: 4px solid #00f;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  z-index: 999;
+  transition: top 0.025s ease, left 0.025s ease, transform 0.25s ease;
+}
+
+a {
+  cursor: none;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	.owl-nav {
+		display: none;
+	}
+	#projects{
+		margin-bottom:70px;
+	}
+	#contact{
+		margin-top:200px;
+	}
+	[data-cursor]{
+		display:none;
+	}
+}
+
+
