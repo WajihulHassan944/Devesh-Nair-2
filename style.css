@@ -980,3 +980,10 @@ a {
 .dark-mode .oneone{
 	color:#fff;
 }
+.hamburger-icon span{
+	background:black;
+}
+.dark-mode .hamburger-icon span{
+	background:#fff;
+}
+

@@ -931,6 +931,15 @@ a {
 ::-moz-scrollbar-thumb {
     background-color: cyan; /* Set the background color to cyan */
 }
+/* For WebKit-based browsers */
+::-webkit-scrollbar-thumb:hover {
+    background-color: lightblue; /* Set the background color to lightblue when hovered */
+}
+
+/* For Firefox */
+::-moz-scrollbar-thumb:hover {
+    background-color: lightblue; /* Set the background color to lightblue when hovered */
+}
 
 
 

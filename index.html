@@ -1063,8 +1063,7 @@ i{
     const header = document.getElementById('desktop-nav');
 	
     const logo = document.querySelector('.logo');
-    const hamSpans = document.querySelectorAll('.hamburger-icon span');
-	
+  
     
 	
 	
@@ -1134,23 +1133,12 @@ i{
         // Adjust header background color based on theme
         if (body.classList.contains('dark-mode')) {
             header.style.backgroundColor = '#000';
-            // Loop through each span and set its background color
-            hamSpans.forEach(span => {
-                span.style.backgroundColor = '#fff';
-            });
-			
-			
-			
+          
             btnColor2.style.color = "white";
             myptag.style.color = "#ccc";
 			
         } else {
             header.style.backgroundColor = '#fff';
-            // Loop through each span and set its background color
-            hamSpans.forEach(span => {
-                span.style.backgroundColor = 'black';
-            });
-			
 			btnColor2.style.color = "black";
 			
             myptag.style.color = "#333";

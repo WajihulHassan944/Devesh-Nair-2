@@ -6,11 +6,11 @@ function toggleMenu() {
 }
 
 
+
+// Smooth scroll to next section on scroll
 document.addEventListener('DOMContentLoaded', function() {
     const sections = document.querySelectorAll('section');
     
-    let lastScrollTop = 0;
-
     window.addEventListener('scroll', function() {
         let currentSection = null;
         
@@ -29,11 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
         const nextSection = currentSection.nextElementSibling;
         
         // Scroll to the next section smoothly
-        if (nextSection && window.scrollY > lastScrollTop) {
+        if (nextSection) {
             nextSection.scrollIntoView({ behavior: 'smooth' });
         }
-
-        lastScrollTop = window.scrollY;
     });
 });
 
