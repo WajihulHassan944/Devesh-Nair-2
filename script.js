@@ -6,37 +6,6 @@ function toggleMenu() {
 }
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const sections = document.querySelectorAll('section');
-    
-    let lastScrollTop = 0;
-
-    window.addEventListener('scroll', function() {
-        let currentSection = null;
-        
-        // Find the current section
-        sections.forEach(function(section) {
-            const sectionTop = section.offsetTop;
-            const sectionBottom = sectionTop + section.offsetHeight;
-            const scrollPosition = window.scrollY;
-            
-            if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-                currentSection = section;
-            }
-        });
-        
-        // Find the next section
-        const nextSection = currentSection.nextElementSibling;
-        
-        // Scroll to the next section smoothly
-        if (nextSection && window.scrollY > lastScrollTop) {
-            nextSection.scrollIntoView({ behavior: 'smooth' });
-        }
-
-        lastScrollTop = window.scrollY;
-    });
-});
-
 
 
 document.addEventListener('DOMContentLoaded', () => {
