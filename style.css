@@ -1025,17 +1025,6 @@ section {
 }
 
 
-@media (max-width: 500px) {
-	
-section {
-    scroll-margin-top:180px;
-
-}
-
-}
-
-
-
 .myCustomButton {
 	user-select:none;
   
@@ -1357,3 +1346,20 @@ section {
     left: 0;
   }
 }
+
+@media (max-width: 500px) {
+	
+section {
+    scroll-margin-top:180px;
+
+}
+.myFootText{
+	margin-top:30px;
+}
+#contact{
+	height:20vh;
+}
+
+}
+
+
