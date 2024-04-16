@@ -1026,6 +1026,15 @@ section {
 }
 
 
+@media (max-width: 500px) {
+	
+section {
+    scroll-margin-top:180px;
+	scroll-snap-stop: always;
+}
+
+}
+
 
 
 .myCustomButton {
@@ -1229,7 +1238,7 @@ section {
 
 .toHoverCss {
 --s: 0.1em;   /* the thickness of the line */
-  --c: cyan; /* the color */
+  --c: crimson; /* the color */
   
   color: #0000;
   padding-bottom: var(--s);
@@ -1282,3 +1291,70 @@ section {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dynamic-txts{
+  margin-left: 15px;
+  height: 45px; /* Reduced height to half */
+  line-height: 45px; /* Adjusted line-height */
+  overflow: hidden;
+  margin-bottom:35px;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: cyan;
+  font-size: 30px; /* Reduced font size to half */
+  font-weight: 700;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 45px; /* Adjusted line-height */
+}
+.dark-mode .dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  border-left: 2px solid cyan;
+  animation: typing 3s steps(10) infinite;
+}
+ .dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border-left: 2px solid cyan;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -180px; /* Adjusted distance to half */
+  }
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 15px); /* Adjusted distance to half */
+  }
+  100%{
+    left: 0;
+  }
+}

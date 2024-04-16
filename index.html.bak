@@ -82,8 +82,17 @@
         <div class="section__text">
             <p class="section__text__p1 section__textOne" >Hello, I'm</p>
             <h1 class="title" data-aos="fade-up">Devesh Nair</h1>
-            <p class="section__text__p2 typing-demo" data-aos="fade-up"><span class="toHoverCssHome">DevOps Engineer</span> and Backend Developer</p>
-            <div class="btn-container" >
+            <p class="section__text__p2 " data-aos="fade-up"><span class="toHoverCssHome">DevOps Engineer</span> and Backend Developer</p>
+ <p class="section__text__p2 " data-aos="fade-up">
+ <ul class="dynamic-txts">
+      <li><span>YouTuber</span></li>
+      <li><span>Designer</span></li>
+	   <li><span>Designer</span></li>
+	    <li><span>Designer</span></li>
+     </ul>
+</p>
+                      
+		   <div class="btn-container" >
                 <button class="btn btn-color-2 myCustomButton"   >
             Download CV
           </button>
@@ -96,8 +105,10 @@
     
      
 
-                <i class="fab fa-github icon myCustomButton" onclick="location.href='https://github.com/Devesh-N?page=2&tab=repositories'" ></i>
-<i class="fab fa-linkedin icon myCustomButton" onclick="location.href='https://linkedin.com/'"></i>
+                <i class="fab fa-github iconsss myCustomButton" onclick="location.href='https://github.com/Devesh-N?page=2&tab=repositories'" ></i>
+<i class="fab fa-linkedin iconsss myCustomButton" onclick="location.href='https://linkedin.com/'"></i>
+
+
 
             </div>
         </div>
@@ -125,7 +136,7 @@
                 </div>
                 <div class="text-container" >
                     <p style="font-size:20px;" class="myptag">
-                        Passionate about developing robust <b>backend solutions</b> and optimizing <b><span class="toHoverCssAbout">DevOps</span> workflows</b>, I leverage years of experience to deliver high-quality projects that exceed client expectations.
+                        Passionate about developing robust <b>backend solutions</b> and optimizing <b><span class="toHoverCssAbout">DevOps workflows</span></b>, I leverage years of experience to deliver high-quality projects that exceed client expectations.
     </p>
                 </div>
             </div>
@@ -330,29 +341,6 @@ i{
 				
 							<div class="testmonial_slider_area text-center owl-carousel" data-aos="zoom-in">
 								 
-  <article class="projects__card">
-        <div class="projects__image">
-            <img src="assets/img/project-1.jpg" alt="Projects 1" class="projects__img">
-            <a href="#" class="projects__button button">
-                <i class="ri-arrow-right-up-line"></i>
-            </a>
-        </div>
-        <div class="projects__content">
-            <span class="projects__subtitle">Java</span>
-            <h2 class="projects__title"><span class="toHoverCssAbout">Maven Demo Project</span></h2>
-            <p class="projects__description">
-                Project developed using Maven, aimed at demonstrating project management and dependency resolution.
-            </p>
-        </div>
-        <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
-                 <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
 
     <!-- Project 2 -->
     <article class="projects__card">
@@ -367,31 +355,6 @@ i{
             <h2 class="projects__title"><span class="toHoverCssAbout">SSH Gen</span></h2>
             <p class="projects__description">
                 Project focused on generating SSH keys programmatically, enhancing security and authentication processes.
-            </p>
-        </div>
-      <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-    <!-- Project 3 -->
-    <article class="projects__card">
-        <div class="projects__image">
-            <img src="assets/img/project-3.jpg" alt="Projects 3" class="projects__img">
-            <a href="#" class="projects__button button">
-                <i class="ri-arrow-right-up-line"></i>
-            </a>
-        </div>
-        <div class="projects__content">
-            <span class="projects__subtitle">JavaScript</span>
-            <h2 class="projects__title"><span class="toHoverCssAbout">Canvas 2022</span></h2>
-            <p class="projects__description">
-                Creative project showcasing HTML canvas element, engaging participants in an annual challenge.
             </p>
         </div>
       <div class="projects__buttons">
@@ -536,31 +499,6 @@ i{
         </div>
     </article>
 
-<!-- Project 9 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-3.jpg" alt="Projects 3" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Terraform</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Kubernetes Installation</span></h2>
-        <p class="projects__description">
-            Project for setting up Kubernetes cluster on AWS cloud using Terraform, showcasing infrastructure automation skills.
-        </p>
-    </div>
-   <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
 <!-- Project 10 -->
 <article class="projects__card">
     <div class="projects__image">
@@ -611,340 +549,7 @@ i{
         </div>
     </article>
 
-<!-- Project 12 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-3.jpg" alt="Projects 3" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Rust</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Pake</span></h2>
-        <p class="projects__description">
-            Rust project for turning any webpage into a desktop app, utilizing Rust programming language.
-        </p>
-    </div>
-  <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
 <!-- Continue with Project 13 and so on... -->
-
-
-
-<!-- Project 13 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-1.jpg" alt="Projects 1" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">TypeScript</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Threads Desktop Pake</span></h2>
-        <p class="projects__description">
-            Desktop app project utilizing Pake, an open-source tool, for creating threaded desktop applications.
-        </p>
-    </div>
-  <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- Project 14 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-2.jpg" alt="Projects 2" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Python</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Code Interpreter</span></h2>
-        <p class="projects__description">
-            Python project for building a machine learning model to interpret and predict house prices.
-        </p>
-    </div>
-   <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- Project 15 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-3.jpg" alt="Projects 3" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">TypeScript</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Noodle</span></h2>
-        <p class="projects__description">
-            Open-source education platform project built with TypeScript, aimed at providing educational resources.
-        </p>
-    </div>
-  <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- End of Project Articles -->
-
-
-<!-- Project 16 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-1.jpg" alt="Projects 1" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Python</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">LocalGPT</span></h2>
-        <p class="projects__description">
-            Project for enabling local device chat with documents using GPT models, ensuring privacy and data security.
-        </p>
-    </div>
-  <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- Project 17 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-2.jpg" alt="Projects 2" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Python</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Maven Project 1</span></h2>
-        <p class="projects__description">
-            Project focusing on Maven project management and development practices, utilizing Java and associated tools.
-        </p>
-    </div>
-   <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- Project 18 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-3.jpg" alt="Projects 3" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">JavaScript</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Docker Test</span></h2>
-        <p class="projects__description">
-            JavaScript project for testing Docker containers, demonstrating proficiency in Docker and containerization concepts.
-        </p>
-    </div>
-   <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- End of Project Articles -->
-
-
-<!-- Project 19 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-1.jpg" alt="Projects 1" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">JavaScript</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">CircleCI Test</span></h2>
-        <p class="projects__description">
-            JavaScript project for testing CircleCI integration and continuous integration practices.
-        </p>
-    </div>
-<div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- Project 20 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-2.jpg" alt="Projects 2" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Python</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">LinkedIn Skill Assessments Quizzes</span></h2>
-        <p class="projects__description">
-            Python project for providing reference answers to LinkedIn skill assessments quizzes.
-        </p>
-    </div>
-  <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- Project 21 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-3.jpg" alt="Projects 3" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Jupyter Notebook</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Boston House Pricing</span></h2>
-        <p class="projects__description">
-            Jupyter Notebook project for analyzing and predicting Boston house pricing using machine learning techniques.
-        </p>
-    </div>
-  <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- End of Project Articles -->
-<!-- Project 22 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-1.jpg" alt="Projects 1" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Config</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">GitHub Profile Config</span></h2>
-        <p class="projects__description">
-            Project for managing GitHub profile configuration files and settings.
-        </p>
-    </div>
-  <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- Project 23 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-2.jpg" alt="Projects 2" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Config</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">GitHub Pages</span></h2>
-        <p class="projects__description">
-            Project for managing GitHub Pages configuration and publishing static websites.
-        </p>
-    </div>
-  <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
-
-<!-- Project 24 -->
-<article class="projects__card">
-    <div class="projects__image">
-        <img src="assets/img/project-3.jpg" alt="Projects 3" class="projects__img">
-        <a href="#" class="projects__button button">
-            <i class="ri-arrow-right-up-line"></i>
-        </a>
-    </div>
-    <div class="projects__content">
-        <span class="projects__subtitle">Java</span>
-        <h2 class="projects__title"><span class="toHoverCssAbout">Gradle Project</span></h2>
-        <p class="projects__description">
-            Java project built with Gradle build automation tool, demonstrating proficiency in Gradle configuration and project management.
-        </p>
-    </div><div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
-                <i class="ri-github-line"></i>
-            </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
-                <i class="ri-eye-line"></i> 
-            </a>
-        </div>
-    </article>
 
 
 </div>
@@ -1014,10 +619,11 @@ i{
                         <p class="oneone">deveshnairthegreat</p>
                     </div>
                     <div class="form-details" data-aos="zoom-in" id="contactContent" >
+					<form id="contactForm">
                         <input type="text" name="name" id="name" placeholder="Name" required>
                         <input type="email" name="email" id="email" placeholder="Email" required>
                         <textarea name="message" id="message" cols="52" rows="7" placeholder="Message" required></textarea>
-                        <button type="submit">SEND MESSAGE</button>
+                        <button type="submit">SEND MESSAGE</button></form>
                     </div>
                 </div>
             </form>
