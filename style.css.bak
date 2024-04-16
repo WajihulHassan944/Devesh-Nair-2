@@ -1299,6 +1299,7 @@ section {
   color: #fff;
   font-size:30px;
   
+  
 }
 .static-txt{
   color: #55555;
@@ -1374,6 +1375,15 @@ section {
 	height:20vh;
 }
 
+.wrapperaround{
+  display: flex;
+  flex-direction:column;
+  gap:5px;
+}
+
+.dynamic-txts{
+  text-align:center;
+}
 }
 
 

@@ -1321,7 +1321,7 @@ section {
   font-weight: 700;
   position: relative;
   top: 0;
-  animation: slide 12s steps(4) infinite;
+  animation: slide 10s steps(4) infinite;
 }
 .dynamic-txts li span{
   position: relative;
@@ -1375,6 +1375,15 @@ section {
 	height:20vh;
 }
 
+.wrapperaround{
+  display: flex;
+  flex-direction:column;
+  gap:5px;
+}
+
+.dynamic-txts{
+  text-align:center;
+}
 }
 
 
