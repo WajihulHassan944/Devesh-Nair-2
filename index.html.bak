@@ -42,15 +42,15 @@
 
 <body class="dark-mode">
     <nav id="desktop-nav" style="background:black;">
-        <div class="logo" data-aos="fade-up">Devesh Nair</div>
+        <div class="logo myCustomButton" data-aos="fade-up">Devesh Nair</div>
         <div>
             <ul class="nav-links" data-aos="fade-up">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" class="myCustomButton">About</a></li>
+                <li><a href="#experience" class="myCustomButton">Experience</a></li>
+                <li><a href="#projects" class="myCustomButton">Projects</a></li>
+                <li><a href="#contact" class="myCustomButton">Contact</a></li>
 				 <!-- Theme button -->
-                <i class="ri-moon-line" id="theme-button" style="cursor:pointer;"></i>
+                <i class="ri-moon-line myCustomButton" id="theme-button" style="cursor:pointer;"></i>
 
             </ul>
         </div>
@@ -82,18 +82,23 @@
         <div class="section__text">
             <p class="section__text__p1 section__textOne" >Hello, I'm</p>
             <h1 class="title" data-aos="fade-up">Devesh Nair</h1>
-            <p class="section__text__p2" data-aos="fade-up">DevOps Engineer and Backend Developer</p>
+            <p class="section__text__p2 typing-demo" data-aos="fade-up"><span class="toHoverCssHome">DevOps Engineer</span> and Backend Developer</p>
             <div class="btn-container" >
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')"  >
+                <button class="btn btn-color-2 myCustomButton"   >
             Download CV
           </button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                <button class="btn btn-color-1 myCustomButton" >
             Contact Info
           </button>
             </div>
             <div id="socials-container">
-                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://linkedin.com/'" />
-                <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Devesh-N?page=2&tab=repositories'" />
+			
+    
+     
+
+                <i class="fab fa-github icon myCustomButton" onclick="location.href='https://github.com/Devesh-N?page=2&tab=repositories'" ></i>
+<i class="fab fa-linkedin icon myCustomButton" onclick="location.href='https://linkedin.com/'"></i>
+
             </div>
         </div>
     </section>
@@ -120,7 +125,7 @@
                 </div>
                 <div class="text-container" >
                     <p style="font-size:20px;" class="myptag">
-                        Passionate about developing robust <b>backend solutions</b> and optimizing <b>DevOps workflows</b>, I leverage years of experience to deliver high-quality projects that exceed client expectations.
+                        Passionate about developing robust <b>backend solutions</b> and optimizing <b><span class="toHoverCssAbout">DevOps</span> workflows</b>, I leverage years of experience to deliver high-quality projects that exceed client expectations.
     </p>
                 </div>
             </div>
@@ -135,68 +140,68 @@
     <div class="experience-details-container ">
         <div class="about-containers">
             <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
-                <h2 class="experience-sub-title" >DevOps</h2>
+                <h2 class="experience-sub-title " ><span class="toHoverCss">DevOps</span></h2>
                 <div class="article-container-experience">
                     <article >
                         <i class="fab fa-docker icon myhthree"></i>
                         <div>
-                            <h3 class="myhthree">Docker</h3>
+                            <h3><span class="toHoverCss">Docker</span></h3>
                             <p>Experienced</p>
                         </div>
                     </article>
                     <article >
                         <i class="fa fa-cube icon myhthree" style="font-size:25px;"></i>
                         <div>
-                            <h3 class="myhthree">Kubernetes</h3>
+                            <h3 ><span class="toHoverCss">Kubernetes</span></h3>
                             <p>Intermediate</p>
                         </div>
                     </article>
                     <article >
                         <i class="fa fa-cogs icon myhthree" style="font-size:25px;"></i>
                         <div>
-                            <h3 class="myhthree">Terraform</h3>
+                            <h3 ><span class="toHoverCss">Terraform</span></h3>
                             <p>Intermediate</p>
                         </div>
                     </article>
                     <article >
                          <i class="fab fa-jenkins icon myhthree"></i>
                         <div>
-                            <h3 class="myhthree">Jenkins</h3>
+                            <h3 ><span class="toHoverCss">Jenkins</span></h3>
                             <p>Experienced</p>
                         </div>
                     </article>
                     <article >
                         <i class="fa fa-server icon myhthree" style="font-size:25px;"></i>
                         <div>
-                            <h3 class="myhthree">Nginx</h3>
+                            <h3 ><span class="toHoverCss">Nginx</span></h3>
                             <p>Experienced</p>
                         </div>
                     </article>
                     <article >
                         <i class="fa fa-exchange icon myhthree" style="font-size:22px;"></i>
                         <div>
-                            <h3 class="myhthree">Kafka</h3>
+                            <h3 ><span class="toHoverCss">Kafka</span></h3>
                             <p>Intermediate</p>
                         </div>
                     </article>
                     <article >
                         <i class="fab fa-linux icon myhthree"></i>
                         <div>
-                            <h3 class="myhthree">Linux</h3>
+                            <h3 ><span class="toHoverCss">Linux</span></h3>
                             <p>Experienced</p>
                         </div>
                     </article>
                     <article >
                         <i class="fa fa-gears icon myhthree" style="font-size:25px;"></i>
                         <div>
-                            <h3 class="myhthree ">Ansible</h3>
+                            <h3 ><span class="toHoverCss">Ansible</span></h3>
                             <p>Experienced</p>
                         </div>
                     </article>
                     <article >
                          <i class="fas fa-bolt icon myhthree"></i>
                         <div>
-                            <h3 class="myhthree">ELK stack</h3>
+                            <h3 ><span class="toHoverCss">ELK stack</span></h3>
                             <p>Intermediate</p>
                         </div>
                     </article>
@@ -208,35 +213,35 @@
                     <article >
                      <i class="fab fa-python icon myhthree"></i>
                         <div>
-                            <h3 class="myhthree">Python</h3>
+                            <h3 ><span class="toHoverCss">Python</span></h3>
                             <p>Experienced</p>
                         </div>
                     </article>
                     <article >
                         <i class="fa fa-code icon myhthree"></i>
                         <div>
-                            <h3 class="myhthree">Go</h3>
+                            <h3 ><span class="toHoverCss">Go</span></h3>
                             <p>Beginner</p>
                         </div>
                     </article>
                     <article >
                          <i class="fab fa-java icon myhthree"></i>
                         <div>
-                            <h3 class="myhthree">Java</h3>
+                            <h3 ><span class="toHoverCss">Java</span></h3>
                             <p>Intermediate</p>
                         </div>
                     </article>
                     <article >
                          <i class="fas fa-gem icon myhthree"></i>
                         <div>
-                            <h3 class="myhthree">Ruby</h3>
+                            <h3 ><span class="toHoverCss">Ruby</span></h3>
                             <p>Beginner</p>
                         </div>
                     </article>
                     <article >
                         <i class="fab fa-windows icon myhthree"></i>
                         <div>
-                            <h3 class="myhthree">C#</h3>
+                            <h3 ><span class="toHoverCss">C#</span></h3>
                             <p>Beginner</p>
                         </div>
                     </article>
@@ -334,16 +339,16 @@ i{
         </div>
         <div class="projects__content">
             <span class="projects__subtitle">Java</span>
-            <h2 class="projects__title">Maven Demo Project</h2>
+            <h2 class="projects__title"><span class="toHoverCssAbout">Maven Demo Project</span></h2>
             <p class="projects__description">
                 Project developed using Maven, aimed at demonstrating project management and dependency resolution.
             </p>
         </div>
         <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
                 <i class="ri-github-line"></i>
             </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
                  <i class="ri-eye-line"></i> 
             </a>
         </div>
@@ -359,16 +364,16 @@ i{
         </div>
         <div class="projects__content">
             <span class="projects__subtitle">Python</span>
-            <h2 class="projects__title">SSH Gen</h2>
+            <h2 class="projects__title"><span class="toHoverCssAbout">SSH Gen</span></h2>
             <p class="projects__description">
                 Project focused on generating SSH keys programmatically, enhancing security and authentication processes.
             </p>
         </div>
       <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
                 <i class="ri-github-line"></i>
             </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
                 <i class="ri-eye-line"></i> 
             </a>
         </div>
@@ -384,16 +389,16 @@ i{
         </div>
         <div class="projects__content">
             <span class="projects__subtitle">JavaScript</span>
-            <h2 class="projects__title">Canvas 2022</h2>
+            <h2 class="projects__title"><span class="toHoverCssAbout">Canvas 2022</span></h2>
             <p class="projects__description">
                 Creative project showcasing HTML canvas element, engaging participants in an annual challenge.
             </p>
         </div>
       <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
                 <i class="ri-github-line"></i>
             </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
                 <i class="ri-eye-line"></i> 
             </a>
         </div>
@@ -416,16 +421,16 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Rust</span>
-        <h2 class="projects__title">ToDo App</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">ToDo App</span></h2>
         <p class="projects__description">
             Rust-based project focused on creating a todo list application, showcasing Rust language capabilities.
         </p>
     </div>
    <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
                 <i class="ri-github-line"></i>
             </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
                 <i class="ri-eye-line"></i> 
             </a>
         </div>
@@ -441,7 +446,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">HTML</span>
-        <h2 class="projects__title">Todo Frontend</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Todo Frontend</span></h2>
         <p class="projects__description">
             HTML-based frontend project for managing todo lists, showcasing frontend development skills.
         </p>
@@ -466,7 +471,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Java</span>
-        <h2 class="projects__title">Todo Register Java</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Todo Register Java</span></h2>
         <p class="projects__description">
             Java-based project for registering todos, demonstrating Java programming skills.
         </p>
@@ -491,7 +496,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Go</span>
-        <h2 class="projects__title">Go API Validation</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Go API Validation</span></h2>
         <p class="projects__description">
             Go-based project focusing on API validation, highlighting Go programming capabilities.
         </p>
@@ -516,7 +521,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Python</span>
-        <h2 class="projects__title">Python Kafka Todo</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Python Kafka Todo</span></h2>
         <p class="projects__description">
             Python project for managing todos with Kafka messaging system, showcasing Python and Kafka integration.
         </p>
@@ -541,7 +546,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Terraform</span>
-        <h2 class="projects__title">Kubernetes Installation</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Kubernetes Installation</span></h2>
         <p class="projects__description">
             Project for setting up Kubernetes cluster on AWS cloud using Terraform, showcasing infrastructure automation skills.
         </p>
@@ -566,7 +571,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Ruby</span>
-        <h2 class="projects__title">My Rails App</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">My Rails App</span></h2>
         <p class="projects__description">
             Ruby on Rails assignment project, demonstrating proficiency in Ruby on Rails framework for web development.
         </p>
@@ -591,7 +596,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Python</span>
-        <h2 class="projects__title">Machine Learning Review Model</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Machine Learning Review Model</span></h2>
         <p class="projects__description">
             Python project for building a machine learning model to review and predict house prices.
         </p>
@@ -616,7 +621,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Rust</span>
-        <h2 class="projects__title">Pake</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Pake</span></h2>
         <p class="projects__description">
             Rust project for turning any webpage into a desktop app, utilizing Rust programming language.
         </p>
@@ -645,7 +650,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">TypeScript</span>
-        <h2 class="projects__title">Threads Desktop Pake</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Threads Desktop Pake</span></h2>
         <p class="projects__description">
             Desktop app project utilizing Pake, an open-source tool, for creating threaded desktop applications.
         </p>
@@ -670,7 +675,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Python</span>
-        <h2 class="projects__title">Code Interpreter</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Code Interpreter</span></h2>
         <p class="projects__description">
             Python project for building a machine learning model to interpret and predict house prices.
         </p>
@@ -695,7 +700,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">TypeScript</span>
-        <h2 class="projects__title">Noodle</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Noodle</span></h2>
         <p class="projects__description">
             Open-source education platform project built with TypeScript, aimed at providing educational resources.
         </p>
@@ -723,7 +728,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Python</span>
-        <h2 class="projects__title">LocalGPT</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">LocalGPT</span></h2>
         <p class="projects__description">
             Project for enabling local device chat with documents using GPT models, ensuring privacy and data security.
         </p>
@@ -748,7 +753,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Python</span>
-        <h2 class="projects__title">Maven Project 1</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Maven Project 1</span></h2>
         <p class="projects__description">
             Project focusing on Maven project management and development practices, utilizing Java and associated tools.
         </p>
@@ -773,7 +778,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">JavaScript</span>
-        <h2 class="projects__title">Docker Test</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Docker Test</span></h2>
         <p class="projects__description">
             JavaScript project for testing Docker containers, demonstrating proficiency in Docker and containerization concepts.
         </p>
@@ -801,7 +806,7 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">JavaScript</span>
-        <h2 class="projects__title">CircleCI Test</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">CircleCI Test</span></h2>
         <p class="projects__description">
             JavaScript project for testing CircleCI integration and continuous integration practices.
         </p>
@@ -826,16 +831,16 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Python</span>
-        <h2 class="projects__title">LinkedIn Skill Assessments Quizzes</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">LinkedIn Skill Assessments Quizzes</span></h2>
         <p class="projects__description">
             Python project for providing reference answers to LinkedIn skill assessments quizzes.
         </p>
     </div>
   <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
                 <i class="ri-github-line"></i>
             </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
                 <i class="ri-eye-line"></i> 
             </a>
         </div>
@@ -851,16 +856,16 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Jupyter Notebook</span>
-        <h2 class="projects__title">Boston House Pricing</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Boston House Pricing</span></h2>
         <p class="projects__description">
             Jupyter Notebook project for analyzing and predicting Boston house pricing using machine learning techniques.
         </p>
     </div>
   <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
                 <i class="ri-github-line"></i>
             </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
                 <i class="ri-eye-line"></i> 
             </a>
         </div>
@@ -877,16 +882,16 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Config</span>
-        <h2 class="projects__title">GitHub Profile Config</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">GitHub Profile Config</span></h2>
         <p class="projects__description">
             Project for managing GitHub profile configuration files and settings.
         </p>
     </div>
   <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
                 <i class="ri-github-line"></i>
             </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
                 <i class="ri-eye-line"></i> 
             </a>
         </div>
@@ -902,16 +907,16 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Config</span>
-        <h2 class="projects__title">GitHub Pages</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">GitHub Pages</span></h2>
         <p class="projects__description">
             Project for managing GitHub Pages configuration and publishing static websites.
         </p>
     </div>
   <div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
                 <i class="ri-github-line"></i>
             </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
                 <i class="ri-eye-line"></i> 
             </a>
         </div>
@@ -927,15 +932,15 @@ i{
     </div>
     <div class="projects__content">
         <span class="projects__subtitle">Java</span>
-        <h2 class="projects__title">Gradle Project</h2>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Gradle Project</span></h2>
         <p class="projects__description">
             Java project built with Gradle build automation tool, demonstrating proficiency in Gradle configuration and project management.
         </p>
     </div><div class="projects__buttons">
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
                 <i class="ri-github-line"></i>
             </a>
-            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
                 <i class="ri-eye-line"></i> 
             </a>
         </div>
@@ -962,23 +967,23 @@ i{
         
         <div class="box tilt " data-aos="zoom-in">
             <img src="images/blog-img-1.jpg" alt="">
-            <h3> blogs title goes here </h3>
+            <h3><span class="toHoverCss"> blogs title goes here </span></h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
-            <a href="#" class="btnsss">learn more</a>
+            <a  class="btnsss myCustomButtonBlack">learn more</a>
         </div>
 
         <div class="box tilt" data-aos="zoom-in">
             <img src="images/blog-img-2.jpg" alt="">
-            <h3> blogs title goes here </h3>
+            <h3><span class="toHoverCss"> blogs title goes here</span> </h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
-            <a href="#" class="btnsss">learn more</a>
+            <a  class="btnsss myCustomButtonBlack">learn more</a>
         </div>
 
         <div class="box tilt" data-aos="zoom-in">
             <img src="images/blog-img-3.jpg" alt="">
-            <h3> blogs title goes here </h3>
+            <h3><span class="toHoverCss"> blogs title goes here </span></h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
-            <a href="#" class="btnsss">learn more</a>
+            <a  class="btnsss myCustomButtonBlack">learn more</a>
         </div>
 
     </div>
@@ -1035,169 +1040,21 @@ i{
 	
 	
 	
-    <footer>
+    <section style="height:30%; padding-bottom:30px;">
         <nav>
             <div class="nav-links-container footerNavs">
                 <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about" class="myCustomButton">About</a></li>
+                    <li><a href="#experience" class="myCustomButton">Experience</a></li>
+                    <li><a href="#projects" class="myCustomButton">Projects</a></li>
+                    <li><a href="#contact" class="myCustomButton">Contact</a></li>
                 </ul>
             </div>
         </nav>
-        <p class="section__textOne">Copyright &#169; 2024 Devesh Nair. All Rights Reserved.</p>
-    </footer>
+      <center>  <p class="section__textOne">Copyright &#169; 2024 Devesh Nair. All Rights Reserved.</p></center>
+    </section>
     <script src="script.js"></script>
 	
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const footerLinks = document.querySelectorAll('footer .nav-links a');
-
-            footerLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href').substring(1); // Remove the '#'
-                    const targetSection = document.getElementById(targetId);
-                    if (targetSection) {
-                        const offset = 160; // Adjust this value as needed
-                        const targetPosition = targetSection.offsetTop - offset;
-                        window.scrollTo({
-                            top: targetPosition,
-                            behavior: 'smooth'
-                        });
-                    }
-                });
-            });
-        });
-    </script>
-<script>
-    const themeButton = document.getElementById("theme-button");
-	
-    const themeButtonsmall = document.getElementById("theme-button-small");
-    const iconTheme = "ri-sun-line";
-    const body = document.querySelector('body');
-    const btnColor2 = document.querySelector('.btn-color-2');
-    const anchorNav = document.querySelectorAll('a');
-    const header = document.getElementById('desktop-nav');
-	
-    const logo = document.querySelector('.logo');
-  
-    
-	
-	
-
-    //  Active / deactive the theme manually with the button
-    themeButton.addEventListener("click", () => {
-        // Toggle dark mode class on body
-        body.classList.toggle("dark-mode");
-        anchorNav.forEach(anchor => {
-            anchor.classList.toggle("dark-mode-anchor");
-        });
-
-       
-        // Toggle button icon class
-        if (themeButton.classList.contains('ri-moon-line')) {
-            themeButton.classList.remove('ri-moon-line');
-            themeButton.classList.add('ri-sun-line');
-        } else {
-            themeButton.classList.remove('ri-sun-line');
-            themeButton.classList.add('ri-moon-line');
-        }
-
-        // Adjust header background color based on theme
-        if (body.classList.contains('dark-mode')) {
-            header.style.backgroundColor = '#000';
-			
-			
-            btnColor2.style.color = "white";
-            
-        
-        } else {
-            header.style.backgroundColor = '#fff';
-			
-					
-			btnColor2.style.color = "black";
-			
-            myptag.style.color = "#333";
-        }
-    });
-
-   
- themeButtonsmall.addEventListener("click", () => {
-        // Toggle dark mode class on body
-        body.classList.toggle("dark-mode");
-        anchorNav.forEach(anchor => {
-            anchor.classList.toggle("dark-mode-anchor");
-        });
-
-        if (btnColor2.style.color === "black") {
-            btnColor2.style.color = "white";
-        } else {
-            btnColor2.style.color = "black";
-        }
-		
-
-        // Toggle button icon class
-        if (themeButton.classList.contains('ri-moon-line')) {
-            themeButton.classList.remove('ri-moon-line');
-            themeButton.classList.add('ri-sun-line');
-		
-        } else {
-            themeButton.classList.remove('ri-sun-line');
-            themeButton.classList.add('ri-moon-line');
-        }
-
-        // Adjust header background color based on theme
-        // Adjust header background color based on theme
-        if (body.classList.contains('dark-mode')) {
-            header.style.backgroundColor = '#000';
-          
-            btnColor2.style.color = "white";
-            myptag.style.color = "#ccc";
-			
-        } else {
-            header.style.backgroundColor = '#fff';
-			btnColor2.style.color = "black";
-			
-            myptag.style.color = "#333";
-       
-        }
-    });
-	
-let lastScrollTop = 0;
-const homeSection = document.getElementById('profile'); // Assuming the ID of the home section is 'home'
-const headerHeightNormal = '9vh'; // Normal height of the header
-const headerHeightHome = '13vh'; // Height of the header when in the home section
-
-const shadowHeader = () => {
-    let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-    
-    if (currentScroll > lastScrollTop ) {
-        // Scrolling down and below the home section, hide the header
-        header.style.transform = 'translateY(-100%)';
-    } else {
-        // Scrolling up or above the home section, show the header
-        header.style.transform = 'translateY(0)';
-        header.style.position = 'fixed';
-        header.style.zIndex = '999';
-        header.style.marginTop = '0';
-        header.style.width = '100%';
-        // Adjust header height based on whether in home section or not
-        header.style.height = (currentScroll < homeSection.offsetTop + homeSection.offsetHeight) ? headerHeightHome : headerHeightNormal;
-        header.classList.add("shadow-header");
-        anchorNav.forEach(anchor => {
-            anchor.style.fontSize = '1.2rem'; // Adjust the font size as per your requirement
-        });
-        logo.style.fontSize = '1.5rem';
-    }
-    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
-};
-
-window.addEventListener('scroll', shadowHeader);
-
-</script>
-
 
 
 <!-- aos js link  -->
