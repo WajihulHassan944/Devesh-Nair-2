@@ -1025,23 +1025,6 @@ section {
 }
 
 
-@media (max-width: 500px) {
-	
-section {
-    scroll-margin-top:180px;
-
-}
-.myFootText{
-	margin-top:30px;
-}
-#contact{
-	height:20vh;
-}
-
-}
-
-
-
 .myCustomButton {
 	user-select:none;
   
@@ -1309,12 +1292,26 @@ section {
 
 
 
+.wrapperaround{
+  display: flex;
+}
+.dark-mode .static-txt{
+  color: #fff;
+  font-size:30px;
+  
+}
+.static-txt{
+  color: #55555;
+  font-size:30px;
+  
+}
 .dynamic-txts{
-  margin-left: 15px;
+  margin-left: 10px;
   height: 45px; /* Reduced height to half */
   line-height: 45px; /* Adjusted line-height */
   overflow: hidden;
   margin-bottom:35px;
+  text-align:left;
 }
 .dynamic-txts li{
   list-style: none;
@@ -1363,3 +1360,20 @@ section {
     left: 0;
   }
 }
+
+@media (max-width: 500px) {
+	
+section {
+    scroll-margin-top:180px;
+
+}
+.myFootText{
+	margin-top:30px;
+}
+#contact{
+	height:20vh;
+}
+
+}
+
+
