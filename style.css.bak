@@ -1123,7 +1123,7 @@ section {
 
 .dark-mode .toHoverCss {
 --s: 0.1em;   /* the thickness of the line */
-  --c: cyan; /* the color */
+  --c: blue; /* the color */
   
   color: #0000;
   padding-bottom: var(--s);

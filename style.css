@@ -1022,7 +1022,6 @@ section {
     scroll-snap-align: start;
     scroll-behavior: smooth;
 	scroll-margin-top:20px;
-	scroll-snap-stop: always;
 }
 
 
@@ -1030,7 +1029,6 @@ section {
 	
 section {
     scroll-margin-top:180px;
-	scroll-snap-stop: always;
 }
 
 }
