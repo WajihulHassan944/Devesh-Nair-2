@@ -1126,20 +1126,18 @@ section {
 .dark-mode .toHoverCss:hover {
  --_p: 100% /* Full underline on hover */
 }
-
 .dark-mode .toHoverCssHome {
---s: 0.1em;   /* the thickness of the line */
+  --s: 0.1em;   /* the thickness of the line */
   --c: white; /* the color */
-  
-   color: #0000;
+  color: #0000;
   padding-bottom: var(--s);
   background: 
-    linear-gradient(90deg,var(--c) 50%,cyan 0) calc(100% - var(--_p,0%))/200% 100%,
-    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
-  -webkit-background-clip: text,padding-box;
-          background-clip: text,padding-box;
+    linear-gradient(90deg,var(--c) 50%,cyan 0) calc(100% - var(--_p,0%))/200% 100%;
+  -webkit-background-clip: text;
+          background-clip: text;
   transition: 0.5s;
 }
+
 
 .dark-mode .toHoverCssHome:hover {
  --_p: 100% /* Full underline on hover */
@@ -1352,15 +1350,15 @@ section {
   100%{
     top: -180px; /* Adjusted distance to half */
   }
-}
-@keyframes typing {
-  40%, 60%{
+}@keyframes typing {
+  40%, 60% {
     left: calc(100% + 15px); /* Adjusted distance to half */
   }
-  100%{
+  100% {
     left: 0;
   }
 }
+
 
 @media (max-width: 500px) {
 	

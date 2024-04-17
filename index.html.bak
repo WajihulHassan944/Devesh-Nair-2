@@ -89,8 +89,8 @@
  <ul class="dynamic-txts">
  
       <li><span class="toHoverCssHome">DevOps Engineer</span></li>
-      <li><span class="toHoverCssHome">Backend Developer</span></li>
-	   <li><span class="toHoverCssHome">DevOps Engineer</span></li>
+      <li><span >Backend Developer</span></li>
+	   <li><span >DevOps Engineer</span></li>
 	    <li><span class="toHoverCssHome">Backend Developer</span></li>
      </ul>
 	 </div>
@@ -104,13 +104,14 @@
             Contact Info
           </button>
             </div>
-            <div id="socials-container">
+            <div id="socials-container" >
 			
     
      
 
                 <i class="fab fa-github iconsss myCustomButton" onclick="location.href='https://github.com/Devesh-N?page=2&tab=repositories'" ></i>
 <i class="fab fa-linkedin iconsss myCustomButton" onclick="location.href='https://linkedin.com/'"></i>
+<i class="fab fa-youtube iconsss myCustomButton" onclick="location.href='https://www.youtube.com/@trainwithDevesh'"></i>
 
 
 
@@ -633,16 +634,16 @@ i{
 
         </div>
     </section>
-
-
 <script>
 document.getElementById('sendEmail').addEventListener('click', function() {
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
     var message = document.getElementById('message').value;
     var subject = 'Message from ' + name;
-    var mailtoLink = 'mailto:deveshagent@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
-    window.location.href = mailtoLink;
+    
+    var mailtoLink = 'https://mail.google.com/mail/?view=cm&fs=1&to=deveshagent@gmail.com&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+    
+    window.open(mailtoLink, '_blank');
 });
 </script>
 
