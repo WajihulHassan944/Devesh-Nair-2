@@ -89,8 +89,8 @@
  <ul class="dynamic-txts">
  
       <li><span class="toHoverCssHome">DevOps Engineer</span></li>
-      <li><span >Backend Developer</span></li>
-	   <li><span >DevOps Engineer</span></li>
+      <li><span class="toHoverCssHome">Backend Developer</span></li>
+	   <li><span class="toHoverCssHome">DevOps Engineer</span></li>
 	    <li><span class="toHoverCssHome">Backend Developer</span></li>
      </ul>
 	 </div>
