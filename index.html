@@ -633,16 +633,16 @@ i{
 
         </div>
     </section>
-
-
 <script>
 document.getElementById('sendEmail').addEventListener('click', function() {
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
     var message = document.getElementById('message').value;
     var subject = 'Message from ' + name;
-    var mailtoLink = 'mailto:wajih786hassan@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
-    window.location.href = mailtoLink;
+    
+    var mailtoLink = 'https://mail.google.com/mail/?view=cm&fs=1&to=wajih786hassan@gmail.com&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+    
+    window.open(mailtoLink, '_blank');
 });
 </script>
 
