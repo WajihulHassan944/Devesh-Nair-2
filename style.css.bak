@@ -1287,64 +1287,70 @@ section {
 
 
 
-.wrapperaround {
+
+
+
+.wrapperaround{
   display: flex;
 }
-
-.dark-mode .static-txt {
+.dark-mode .static-txt{
   color: #fff;
-  font-size: 30px;
+  font-size:30px;
+  
+  
 }
-
-.static-txt {
+.static-txt{
   color: #55555;
-  font-size: 30px;
+  font-size:30px;
+  
 }
-
-.dynamic-txts {
+.dynamic-txts{
   margin-left: 10px;
   height: 45px; /* Reduced height to half */
   line-height: 45px; /* Adjusted line-height */
   overflow: hidden;
-  margin-bottom: 35px;
-  text-align: left;
+  margin-bottom:35px;
+  text-align:left;
 }
-
-.dynamic-txts li {
+.dynamic-txts li{
   list-style: none;
   color: cyan;
   font-size: 30px; /* Reduced font size to half */
   font-weight: 700;
   position: relative;
   top: 0;
-  animation: slide 15s steps(4) infinite; /* Adjusted to 15s */
+  animation: slide 12s steps(4) infinite;
 }
-
-.dynamic-txts li span {
+.dynamic-txts li span{
   position: relative;
   margin: 5px 0;
   line-height: 45px; /* Adjusted line-height */
 }
-
-.dark-mode .dynamic-txts li span::after,
-.dynamic-txts li span::after {
+.dark-mode .dynamic-txts li span::after{
   content: "";
   position: absolute;
   left: 0;
   height: 100%;
   width: 100%;
-  background: #fff; /* Adjusted background color */
+  background: black;
   border-left: 2px solid cyan;
-  animation: typing 5s steps(10) infinite; /* Adjusted to 5s */
+  animation: typing 3s steps(10) infinite;
 }
-
+ .dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border-left: 2px solid cyan;
+  animation: typing 3s steps(10) infinite;
+}
 @keyframes slide {
-  100% {
+  100%{
     top: -180px; /* Adjusted distance to half */
   }
-}
-
-@keyframes typing {
+}@keyframes typing {
   40%, 60% {
     left: calc(100% + 15px); /* Adjusted distance to half */
   }
@@ -1357,7 +1363,7 @@ section {
 @media (max-width: 500px) {
 	
 section {
-    scroll-margin-top:180px;
+	 scroll-snap-align: none;
 
 }
 .myFootText{

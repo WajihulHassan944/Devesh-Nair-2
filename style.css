@@ -1359,11 +1359,17 @@ section {
   }
 }
 
+/* Disable scroll snap on mobile devices */
+@media screen and (max-width: 767px) {
+    section {
+        scroll-snap-align: none;
+    }
+}
 
 @media (max-width: 500px) {
 	
 section {
-    scroll-margin-top:180px;
+	 scroll-snap-align: none;
 
 }
 .myFootText{
