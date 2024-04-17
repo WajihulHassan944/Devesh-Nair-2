@@ -84,13 +84,16 @@
             <h1 class="title" data-aos="fade-up">Devesh Nair</h1>
      <!--       <p class="section__text__p2 " data-aos="fade-up"><span class="toHoverCssHome">DevOps Engineer</span> and Backend Developer</p>-->
  <p class="section__text__p2 " data-aos="fade-up">
+ <div class="wrapperaround">
+  <div class="static-txt">I'm a</div>
  <ul class="dynamic-txts">
- <p>I am a </p>
+ 
       <li><span class="toHoverCssHome">DevOps Engineer</span></li>
       <li><span class="toHoverCssHome">Backend Developer</span></li>
 	   <li><span class="toHoverCssHome">DevOps Engineer</span></li>
 	    <li><span class="toHoverCssHome">Backend Developer</span></li>
      </ul>
+	 </div>
 </p>
                       
 		   <div class="btn-container" >
@@ -611,27 +614,38 @@ i{
 		
 		<center> <div class="g-recaptcha" data-sitekey="6LeLErwpAAAAAD3s3QWddvNAWULeDdLGUu3_-5lK" data-callback="onSubmit" style="margin-top:50px;"></div></center>
         <div class="contactss containerss" style="display:none;">
-            <form id="contactForm">
-                <div class="form">
-                    <div class="form-txt" data-aos="zoom-in">
-                        <h1 class="oneone">Let's Connect!</h1>
-                        <span class="oneone">I will read all emails. Send me any message you want and I'll get back to you.</span>
-                        <h3 class="oneone">Discord:</h3>
-                        <p class="oneone">deveshnairthegreat</p>
-                    </div>
-                    <div class="form-details" data-aos="zoom-in" id="contactContent" >
-					<form id="contactForm">
-                        <input type="text" name="name" id="name" placeholder="Name" required>
-                        <input type="email" name="email" id="email" placeholder="Email" required>
-                        <textarea name="message" id="message" cols="52" rows="7" placeholder="Message" required></textarea>
-                        <button type="submit">SEND MESSAGE</button></form>
-                    </div>
-                </div>
-            </form>
+           <form id="contactForm">
+    <div class="form">
+        <div class="form-txt" data-aos="zoom-in">
+            <h1 class="oneone">Let's Connect!</h1>
+            <span class="oneone">I will read all emails. Send me any message you want and I'll get back to you.</span>
+            <h3 class="oneone">Discord:</h3>
+            <p class="oneone">deveshnairthegreat</p>
+        </div>
+        <div class="form-details" data-aos="zoom-in" id="contactContent">
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <textarea name="message" id="message" cols="52" rows="7" placeholder="Message" required></textarea>
+            <button id="sendEmail" type="button">SEND MESSAGE</button>
+        </div>
+    </div>
+</form>
+
         </div>
     </section>
 
-    
+
+<script>
+document.getElementById('sendEmail').addEventListener('click', function() {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    var subject = 'Message from ' + name;
+    var mailtoLink = 'mailto:deveshagent@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+    window.location.href = mailtoLink;
+});
+</script>
+
 	 <div id="loading-screen">
        
 <div class="gooey">
